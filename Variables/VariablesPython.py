@@ -17,22 +17,24 @@ print(suma);
 
 #y también funciona para concatenar cadenas:
 
-nombre = "Lucas";
-bienvenida =  "Hola " + nombre + " ¿Cómo estás?";
+nombreUsuario = "Lucas"; #Definición de variable usando camelCase
+nombre_usuario = "Lucas"; #Definición de variable usando snake_case
+
+bienvenida =  "Hola " + nombre_usuario + " ¿Cómo estás?";
 
 print(bienvenida);
 
     #Es importante aprender a utilizar los FSTRING
 
 nombre = "Lucas";
-bienvenida = f"Hola {nombre} ¿Cómo estás?"
+bienvenida = f"Hola {nombreUsuario} ¿Cómo estás?"
 
 
     #Borrar una variable
 del nombre;
 
 
-    #Uso de operadores de IDENTIDAD
+    #Uso de operadores de IDENTIDAD o PERTENENCIA
 print("Hola" in bienvenida) #Retorna true porque Hola sí se encuentra dentro de la variable bienvenida
 
 print("Pedro" not in bienvenida) #Retorna true porque Pedro no se encuentra dentro de la variable bienvenida
