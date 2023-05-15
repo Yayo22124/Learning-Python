@@ -5,8 +5,8 @@ This is my *personal* repository of proyects and little programs that i creating
   ### PyIMC
   This Python program, calculates your **IMC** (Body Mass Index) and return your body status
   ### Code
-  ''' Python
-   # Calculadora de IMC (Índice de Masa Corporal)
+  ```python
+# Calculadora de IMC (Índice de Masa Corporal)
 
 #Fórmula: IMC = Peso / (Altura x Altura)
 #   • IMC < 19: Delgadez
@@ -32,7 +32,7 @@ if IMC >= 26 and IMC < 30:
     print('Usted tiene un IMC de: ', IMC, ' su estado es Obesidad');
 if IMC > 30:
     print('Usted tiene un IMC de ', IMC, ' su estado es Sobrepeso')
-  '''
+```
   
   ### CalcIC 
   This is an automatic and CLI **compound interest** calculator
