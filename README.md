@@ -4,7 +4,6 @@ This is my *personal* repository of proyects and little programs that i creating
 # Exercises
   ### PyIMC
   This Python program, calculates your **IMC** (Body Mass Index) and return your body status
-  ### Code
   ```python
 # Calculadora de IMC (Índice de Masa Corporal)
 
